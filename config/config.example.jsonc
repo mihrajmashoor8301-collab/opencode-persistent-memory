@@ -1,0 +1,7 @@
+{
+  // Merge these keys into your existing OpenCode config only if desired.
+  // Do not replace your provider/model setup with this example.
+  "$schema": "https://opencode.ai/config.json",
+  "plugin": [],
+  "tools": {}
+}

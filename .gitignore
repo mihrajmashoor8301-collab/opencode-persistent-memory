@@ -1,0 +1,36 @@
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.token
+*.secret
+id_rsa*
+id_ed25519*
+
+# Persistent memory runtime data (never commit user data)
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db-*
+/embeddings/
+/chroma/
+/logs/
+/backups/
+/database/
+
+# OpenCode and editor runtime state
+.opencode/
+*.log
+.DS_Store
